@@ -1,0 +1,53 @@
+body {
+position:fixed;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+font-family: sans-serif;
+background-color: blueviolet;
+color: white;
+}
+#start {
+position:fixed;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+top: 25%;
+}
+#botonStart {
+font-weight: bold;
+padding: 10px;
+border-radius: 15px;
+}
+#juego {
+opacity: 0;
+visibility: hidden;
+transition: opacity 1s;
+}
+#prueba {
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+}
+#botonAdivinar {
+font-weight: bold;
+padding: 10px;
+border-radius: 15px;
+}
+#numeroInput {
+text-align: center;
+}
+#reiniciarJuego {
+font-weight: bold;
+padding: 10px;
+border-radius: 15px;
+}
+#ganador {
+font-size: x-large;
+font-weight: bolder;
+}
